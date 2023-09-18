@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 module.exports = {
   root: true,
   env: { browser: true, node: true, es2020: true },
@@ -16,6 +17,6 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
-    'react/prop-types':0
+    
   },
 }
