@@ -1,5 +1,5 @@
-import { LineChart, Line, XAxis,YAxis} from 'recharts';
-import { BarChart,Bar} from 'recharts';
+import { LineChart, Line, XAxis,YAxis, Tooltip} from 'recharts';
+import { BarChart, Bar} from 'recharts';
 
 const NumberCharts = () => {
     const studentMarks = [
@@ -27,6 +27,8 @@ const NumberCharts = () => {
             <BarChart width={500} height={400} data={studentMarks}>
                 
             <Bar dataKey="math" fill="#8884d8"></Bar>
+            
+            
             </BarChart>
         </div>
     );
